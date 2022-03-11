@@ -12,21 +12,64 @@ async-timeout==4.0.2
     # via aiohttp
 attrs==21.4.0
     # via aiohttp
+black==22.1.0
+    # via -r requirements.in
 charset-normalizer==2.0.12
     # via aiohttp
+click==8.0.4
+    # via
+    #   black
+    #   flask
+colorama==0.4.4
+    # via click
+flask==2.0.3
+    # via
+    #   -r requirements.in
+    #   flask-sqlalchemy
+    #   slackeventsapi
+flask-sqlalchemy==2.5.1
+    # via -r requirements.in
 frozenlist==1.3.0
     # via
     #   aiohttp
     #   aiosignal
+greenlet==1.1.2
+    # via sqlalchemy
 idna==3.3
     # via yarl
+itsdangerous==2.1.1
+    # via flask
+jinja2==3.0.3
+    # via flask
+markupsafe==2.1.0
+    # via jinja2
 multidict==6.0.2
     # via
     #   aiohttp
     #   yarl
+mypy-extensions==0.4.3
+    # via black
+pathspec==0.9.0
+    # via black
+platformdirs==2.5.1
+    # via black
+pyee==9.0.4
+    # via slackeventsapi
 python-dotenv==0.19.2
     # via -r requirements.in
 slackclient==2.9.3
     # via -r requirements.in
+slackeventsapi==3.0.1
+    # via -r requirements.in
+sqlalchemy==1.4.32
+    # via flask-sqlalchemy
+tomli==2.0.1
+    # via black
+typing-extensions==4.1.1
+    # via
+    #   black
+    #   pyee
+werkzeug==2.0.3
+    # via flask
 yarl==1.7.2
     # via aiohttp

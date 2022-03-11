@@ -1,2 +1,6 @@
+black
+flask
+flask-sqlalchemy
 python-dotenv
 slackclient
+slackeventsapi
