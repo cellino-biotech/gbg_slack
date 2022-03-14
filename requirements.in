@@ -1,6 +1,7 @@
 black
 flask
 flask-sqlalchemy
+polling
 python-dotenv
 slackclient
 slackeventsapi

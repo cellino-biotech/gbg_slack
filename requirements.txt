@@ -53,6 +53,8 @@ pathspec==0.9.0
     # via black
 platformdirs==2.5.1
     # via black
+polling==0.3.2
+    # via -r requirements.in
 pyee==9.0.4
     # via slackeventsapi
 python-dotenv==0.19.2
